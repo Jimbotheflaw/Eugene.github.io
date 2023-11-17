@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatable" content="IE=edge">
+      <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+      <title>Personal Portfolio</title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <div id="header">
+      <div class="container"> 
+        <nav>
+          <img src="Images/logo.jpg" alt="Logo" width="25%" height="25%">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">IVVT105</a></li>
+            <li><a href="#">IVGC105</a></li>
+            <li><a href="#">IVBD105</a></li>  
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+              <p>Graphic Designer</p>
+              <h1>Hi, I'm <span>Eugene Ndoungou</span><br>from Newbridge Graduate Institution</h1>
+        </div>
+      </div>
+     </div>
+     <div id="about">
+          <div class="container">
+            <div class="row">
+              <div class="about-col-1">
+                <img src="Images/suit pic.jpg" width="450px%" height="550">
+              </div>
+              <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm a junior Graphic designer with with the basic knowlesge about graphic design. With the knowlesge I've learned this year i feel like i can tackle any challange a graphic designer can handle. I am seeking to a career in graphic design so that I can one day relax while I have empoyees working for me.
+                  On my off days i take part in my day routines of intense body workouts and play Rugny for my club. I'm a ethusiastric and motivaltions, I tend to help others to break their limit when they feel like they are about to fall form their goal/ achievement..</p>
+                  <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                  </div>
+                  <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI?UX</span><br>Designing Web/APP interface</li>
+                        <li><span>Web Developement</span><br>Designing Web/APP interface</li>
+                        <li><span>App Developement</span><br>Building Android/iOS apps</li>
+                    </ul>
+                  </div>
+
+                  <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>PhotoShop</span><br>Editimg photos and making mockups</li>
+                        <li><span>Corel Draw</span><br>Designing Logs, Pamphlets and businss esenials</li>
+                        <li><span>Javascript</span><br>Building Websites for people</li>
+                    </ul>
+                  </div>
+
+                  <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2025</span><br>Diploma in Graphic design</li>
+                        <li><span>2026</span><br>Degree in Graphic design</li>
+                        <li><span>2025</span><br>Photgraphy</li>
+                    </ul>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+     </div>
+<!-- --------------about------------- -->
+
+
+
+
+
+      <script>
+            var tablinks = document.getElemenetsByClassName("tab-links");
+            var tabcontents = document.getElemenetsByClassName("tab-contents");
+
+            function opentab(tabname){
+           for(tablink of tablinks){
+           tablink.classList.remove_("active-link");
+          }
+    
+            for(tabcontent of tabcontents){
+              tabcontent.classList.remove_("active-tab");
+          }
+
+          }
+
+      </script>
+
+
+
+        <h1>IVVT105 Work For Show</h1>
+        <img src="Images/Bird Paste.pngl.jpg" width="38%" height="38%">
+        <img src="Images/Still Life.jpg" width="25%" height="25%">
+        <p>These above here are one of the many Visual Techniques I've done this year in class and for my exams. It was time consuming but a lovely experience. In the process of making those i got to relive my child, as the years go by
+          and we as teens grow to become adults we tend to forget the feeling of just relaxing and drawing.
+        </p>
+<br>
+<br>
+<br>
+        <h1>IVGC105 Work For Show</h1>
+        <img src="Images/Mockup_Cup_Final.png" width="25%" height="25%">
+        <img src="Images/Book Cover.png.png" width="30%" height="30%">
+        <P> The following Images was when it all started to get intense from the learning to use the programs to work with it in order to design something.  </P>
+
+
+<br>
+<br>
+<br>
+        <h1>IVBD105 Work For Show</h1>
+        <img src="Images/Movie Poster.jpg" width="35%" height="34%">
+        <img src="Images/coffee cup logo.png.jpg" width="25%" height="25%">
+        <p>The skills I aquired I've gained the knowlesge on how to make menu posters, movie posters, brand logos, busines pamphelts and so much more.</p>
+        <p> One day I might aswell start my own compony just to help share the vaste amount of knowlesge there is to know a out Graphic Design </p>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1></h1>
+        <h1 class="sub-title">About Me</h1>
+      
+        
+        <div class="container">
+          <div style="text-align:center">
+            <h1>Get Connected with me</h1>
+            <h2>Contact Us</h2>
+            <p>Be free to contact me personally if youre in need of a designer.</p>
+          </div>
+          <div class="row">
+            <div class="column">
+              <img src="Images/suit pic.jpg" width="450ox" height="550px">
+            </div>
+            <div class="column">
+              <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+                
+                <label for="email">Enter Email ID</label>
+                <input type="email" id="email" name="email" placeholder="Email..">
+                
+        
+               <p> <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                  <option value="usa">Japan</option>
+                  <option value="usa">South-Africa</option>
+                  <option value="usa">Russia</option>
+                  <option value="usa">Korea</option>
+                  <option value="usa">New Zealand</option>
+                  <option value="usa">Croatia</option>
+                  <option value="usa">England</option>
+                  <option value="usa">France</option>
+                  <option value="usa">United Kingdom</option>
+                  <option value="usa">Italy</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit"></p>
+                <br>
+                <p><a href="mailto: eugenejustemoindoungou@gmail.com"</a> Email Eugene</p>
+              </form>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>Copyright &copy;2023</footer>
+  </body>
+</html>
